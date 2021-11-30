@@ -1,0 +1,103 @@
+
+.navbar{
+    justify-content:space-between;
+    color: whitesmoke;
+   
+}
+.main{
+    height:100vh;
+    padding: 10px;
+    background-image: url("backimage1.jpg") ;
+    /*height: 600px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size:cover; 
+  
+
+  opacity:0.8;
+}
+
+.content{
+    padding: 2rem;
+    display: flex;
+    height: 90%;
+    text-align: center;
+    justify-content: center;  
+    flex-direction: column;
+    align-items: center;
+    color:white;
+}
+.main-next{
+    height:60vh;
+}
+
+.services{
+    height:40vh;
+
+}
+
+
+
+.service{
+
+    color:rgb(12, 12, 12);
+    text-align: center;
+    font-size: 14px;
+}
+
+.row{
+    
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    block-size: fit-content;
+    
+} 
+.bar{
+    width: 45px;
+    height: 5px;
+    background-color:rgb(128, 148, 148);
+    margin: 10px 0;
+  }
+
+.col{
+    height:230px;
+    width:250px;
+    contain: content;
+    margin:5px;
+    
+    
+}
+.galaries{
+    margin-top:20vh;
+    text-align: center;
+    
+}
+
+.gallery{
+    margin:30px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-evenly;
+    block-size: fit-content;
+}
+.gallery .img{
+    
+    
+    object-fit: contain;
+}
+.no{
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 40px;
+}
+
+@media screen and (max-width: 450px) {
+
+    .galaries{
+        margin-top:40vh;
+        
+        
+    }
+    
+  }
